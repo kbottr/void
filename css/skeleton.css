@@ -242,7 +242,7 @@ html {
 }
 
 body {
-  font-size: 1.5em;
+  font-size: 1.6em;
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -803,6 +803,33 @@ ul,
 ol,
 form {
   margin-bottom: 2.5rem;
+}
+
+.container {
+  margin-top: 80px;
+}
+
+.nav ul, .nav li {
+  display: inline;
+  margin: 0 80px 0 0px;
+  float: left;
+}
+.nav a {
+  text-decoration: none;
+}
+.nav a:hover {
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+}
+
+.content {
+  margin-bottom: 240px;
+  display: flex;
 }
 
 /*# sourceMappingURL=skeleton.css.map */
