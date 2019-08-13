@@ -18,7 +18,7 @@ $link-color: #1eaedb !default;
 $font-color: #5F6169 !default;
 
 // Typography
-$font-family: "Oakes Grotesk", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family: "Oakes Grotesk", "OakesGrotesk" , "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 
 @font-face {
     font-family: 'OakesGrotesk';
@@ -46,8 +46,8 @@ $font-family: "Oakes Grotesk", "Raleway", "HelveticaNeue", "Helvetica Neue", Hel
 }
 @font-face {
     font-family: 'OakesGrotesk';
-    src:  url('/css/webfonts/oakes-grotesk-bold.woff2') format('woff2'),
-          url('/css/webfonts/oakes-grotesk-bold.woff') format('woff');
+    src:  url('../void/css/webfonts/oakes-grotesk-bold.woff2') format('woff2'),
+          url('../void/css/webfonts/oakes-grotesk-bold.woff') format('woff');
     font-weight: 700;
 }
 

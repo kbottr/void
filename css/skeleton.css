@@ -250,7 +250,7 @@ th {
 }
 @font-face {
   font-family: "OakesGrotesk";
-  src: url("/css/webfonts/oakes-grotesk-bold.woff2") format("woff2"), url("/css/webfonts/oakes-grotesk-bold.woff") format("woff");
+  src: url("../void/css/webfonts/oakes-grotesk-bold.woff2") format("woff2"), url("../void/css/webfonts/oakes-grotesk-bold.woff") format("woff");
   font-weight: 700;
 }
 /*
@@ -271,7 +271,7 @@ body {
   font-size: 1.6em;
   line-height: 1.5;
   font-weight: 400;
-  font-family: "Oakes Grotesk", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Oakes Grotesk", "OakesGrotesk", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #5F6169;
 }
 
