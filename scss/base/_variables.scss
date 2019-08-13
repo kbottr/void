@@ -15,10 +15,41 @@ $primary-color: #33c3f0 !default;
 $secondary-color: lighten($dark-grey, 13.5%) !default;
 $border-color: #bbb !default;
 $link-color: #1eaedb !default;
-$font-color: #222 !default;
+$font-color: #5F6169 !default;
 
 // Typography
-$font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family: "Oakes Grotesk", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+@font-face {
+    font-family: 'OakesGrotesk';
+    src:  url('/css/webfonts/oakes-grotesk-light.woff2') format('woff2'),
+          url('/css/webfonts/oakes-grotesk-light.woff') format('woff');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'OakesGrotesk';
+    src:  url('/css/webfonts/oakes-grotesk-regular.woff2') format('woff2'),
+          url('/css/webfonts/oakes-grotesk-regular.woff') format('woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'OakesGrotesk';
+    src:  url('/css/webfonts/oakes-grotesk-medium.woff2') format('woff2'),
+          url('/css/webfonts/oakes-grotesk-medium.woff') format('woff');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'OakesGrotesk';
+    src:  url('/css/webfonts/oakes-grotesk-semi-bold.woff2') format('woff2'),
+          url('/css/webfonts/oakes-grotesk-semi-bold.woff') format('woff');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'OakesGrotesk';
+    src:  url('/css/webfonts/oakes-grotesk-bold.woff2') format('woff2'),
+          url('/css/webfonts/oakes-grotesk-bold.woff') format('woff');
+    font-weight: 700;
+}
 
 //Grid Variables
 $container-width: 960px !default;
