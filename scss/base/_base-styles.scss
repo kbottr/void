@@ -6,11 +6,12 @@
 
 html {
   font-size: 62.5%;
+  background-color: #F5F5F5;
 }
 
 body {
   font-size: 1.6em; // currently ems cause chrome bug misinterpreting rems on body element
-  line-height: 1.6;
+  line-height: 1.5;
   font-weight: 400;
   font-family: $font-family;
   color: $font-color;
@@ -34,4 +35,11 @@ hr {
   margin-bottom: 3.5rem;
   border-width: 0;
   border-top: 1px solid $light-grey;
+}
+
+// img
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+img {
+  max-width: 100%;
+  height: auto;
 }
